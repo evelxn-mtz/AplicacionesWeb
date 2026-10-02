@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+
+header {
+    height: 120px;
+    background-color: #007acc;
+}
+
+
+nav {
+    width: 30%;
+    height: 35px;
+    background-color: #009933;
+    margin-left: 70%; 
+    margin-top: -15px; 
+    margin-bottom: 20px; 
+}
+
+section {
+    background-color: #ffeb00;  
+    margin: 10px 0;
+    padding: 20px 0; 
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: space-between; /* <-- Cambio clave aquí */
+    align-items: center;
+}
+
+
+    article {
+    width: 30%; 
+    height: 200px;
+    background-color: #ff6600;
+    }
+
+.asideagua {
+    width: 78%; 
+    height: 180px;
+    background-color: #b2d8c8;
+    display: inline-block;
+    margin-right: 1.7%;  
+}
+
+
+aside {
+    width: 20%; 
+    height: 180px;
+    background-color: #99cc66;
+    display: inline-block;
+
+}
+
+
+footer {
+    height: 60px;
+    background-color: #007acc;
+}
+
